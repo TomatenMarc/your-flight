@@ -6,10 +6,20 @@
   "background": {
     "service_worker": "./background.js"
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ],
   "permissions": [],
   "author": "Marc Feger and Jan Steimann",
   "homepage_url": "https://github.com/TomatenMarc/your-flight",
-
   "short_name": "Your Flight",
   "action": {
     "default_popup": "popup.html",
