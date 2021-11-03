@@ -1,12 +1,12 @@
 /*global chrome*/
 import './App.css';
-import AirportList from "./Components/AirportList";
 import 'semantic-ui-css/semantic.min.css'
+import SearchButton from "./Components/SearchButton";
 
 function App() {
   return (
       <div>
-        <AirportList />
+        <SearchButton />
       </div>
   );
 }
