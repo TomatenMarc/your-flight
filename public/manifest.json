@@ -1,30 +1,30 @@
 {
   "manifest_version": 3,
-  "name": "React Chrome Extension",
+  "name": "Your Flight",
   "version": "0.1",
-  "description": "Boilerplate manifest for React based Chrome Extension using Google's Manifest v3",
+  "description": "",
   "background": {
     "service_worker": "./background.js"
   },
   "permissions": [],
-  "author": "Christian Sendler",
-  "homepage_url": "https://github.com/casendler/",
+  "author": "Marc Feger and Jan Steimann",
+  "homepage_url": "https://github.com/TomatenMarc/your-flight",
 
-  "short_name": "React Extension",
+  "short_name": "Your Flight",
   "action": {
     "default_popup": "popup.html",
     "default_title": "React Chrome Extension",
     "default_icon": {
-      "16": "/images/react-logo-16.png",
-      "32": "/images/react-logo-32.png",
-      "48": "/images/react-logo-48.png",
-      "128": "/images/react-logo-128.png"
+      "16": "/images/flight",
+      "32": "/images/flight.png",
+      "48": "/images/flight.png",
+      "128": "/images/flight.png"
     }
   },
   "icons": {
-    "16": "/images/react-logo-16.png",
-    "32": "/images/react-logo-32.png",
-    "48": "/images/react-logo-48.png",
-    "128": "/images/react-logo-128.png"
+    "16": "/images/flight.png",
+    "32": "/images/flight.png",
+    "48": "/images/flight.png",
+    "128": "/images/flight.png"
   }
 }
