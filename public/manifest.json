@@ -22,7 +22,7 @@
   "homepage_url": "https://github.com/TomatenMarc/your-flight",
   "short_name": "Your Flight",
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "index.html",
     "default_title": "Your Flight",
     "default_icon": {
       "16": "/images/flight.png",
